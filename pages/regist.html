@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაცია</title>
+    <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css">
+    <script src="https://kit.fontawesome.com/110784ff4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="hwrapper">
+                <i class="fa-brands fa-html5 fa-2xl"></i>
+                <nav class="left">
+                    <ul>
+                        <li>
+                            <a href="../index.html">მთავარი</a>
+                            <a href="">დახმარება</a>
+                            <a href="">ბლოგი</a>
+                            <a href="">წესები</a>
+                            <a href="">კონტაქტი</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="right">
+                <ul>
+                    <li>
+                        <a href="/pages/regist.html">რეგისტრაცია</a>
+                        <a href="">შესვლა</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="regist">
+        <div class="container">
+            <form class="" action="">
+                <div class="inputwrapper">
+                    <label for="fname"> სახელი</label>
+                    <input type="text" id="fname" name="fname" placeholder="ჩაწერეთ თქვენი სახელი">
+                </div>
+                <div class="inputwrapper">
+                    <label for="lname">გვარი</label>
+                    <input type="text" id="lname" name="lname" placeholder="ჩაწერეთ თქვენი გვარი">
+                </div>
+                <div class="inputwrapper">
+                    <label for="email">მომხმარებლის ელ- ფოსტა</label>
+                    <input type="email" id="email" name="email" placeholder="ჩაწერეთ თქვენი ელ-ფოსტა">
+                </div>
+                <div class="inputwrapper">
+                    <label for="bday">დაბადების თარიღი</label>
+                    <input type="date" id="bday" name="bday">
+                </div> 
+                <div class="inputwrapper">   
+                    <label for="bplace">დაბადების ადგილი</label>
+                    <select name="bplace" id="bplace">
+                        <option value="">საქართველო</option>
+                        <option value="">აშშ</option>
+                        <option value="" selected>ინგლისი</option>
+                        <option value="">საფრანგეთი</option>
+                    </select>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="man" name="man" value="man">
+                    <label for="man">კაცი</label>
+                    <input type="radio" id="woman" name="woman" value="woman">
+                    <label for="woman">ქალი</label>
+                </div>
+                <div class="inputwrapper">
+                    <label for="pass">პაროლი</label>
+                    <input type="password" name="pwd" id="psw">
+                </div>
+                <div class="inputwrapper">
+                    <label for="pass">გაიმეორე პაროლი</label>
+                    <input type="password" name="pwd" id="psw">
+                </div>
+                <input type="submit" value="რეგისტრაცია">
+
+            </form>
+
+        </div>
+
+    </section>
+</body>
+</html>
