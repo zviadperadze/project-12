@@ -1,0 +1,6 @@
+.contact{
+    margin-top: 70px;
+    .container{
+        @extend %mycontainer;
+    }
+}
