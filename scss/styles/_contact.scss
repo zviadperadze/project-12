@@ -2,15 +2,24 @@ body{
     min-height: calc(100vh - 70px);
     .contact{
         margin-top: 70px;
-        width: 100%;
-        padding: 40px;
+         padding: 40px;
 
+        .footloc1{
+            min-height: calc(100vh - 220px);
+           }
        
         .container{
             @extend %mycontainer;
             @include flexrow;
             @include shadow1;
             background-color: aquamarine;
+            height: 426px;
+            
+            
+            
+            .maps{
+                height: 426px;
+            }         
 
             .wrapper{
                 width: 200px;
@@ -40,13 +49,8 @@ body{
                 }
             }
 
-
-
            
         }
-        .contactfootloc{
-            // min-height: 425px;
-            min-height: calc(100vh - 220px);
-        }
+        
     }
 }

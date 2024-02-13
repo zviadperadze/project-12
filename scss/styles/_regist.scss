@@ -21,17 +21,22 @@ body{
                 
 
                 .inputwrapper{
+                    
                 @include flexcl;
                     width: 100%;
                     height: 60px;
                     margin-bottom: 10px;
+
+                    input, select {
+                        padding-left: 10px
+                    }
 
                     input, label,select {
                         height: 30px;
                         border: none;
                         font-family:"BPG Nino Mtavruli", sans-serif;
                         font-weight: 600;
-                    color: black;
+                        color: black;
                     
                     &::placeholder{
                         opacity: 0.5;
@@ -48,10 +53,45 @@ body{
                 .radio{
                     width: 100%;
                     height: 30px;
+                    margin-bottom: 10px;
+
+                    input, label,select{
+                        
+                        border: none;
+                        font-family:"BPG Nino Mtavruli", sans-serif;
+                        font-weight: 600;
+                        color: black;
+                    }
                     
 
                 }
+                .pass{
+                    width: 100%;
+                    height: 30px;
+                    margin-bottom: 10px;
+                    @include flexrow($justify:center);
+                   
+                    
+                    a{
+                        color: white;
+                        font-weight: 600;
+                        
+                    }
+                }
 
+                .restore{
+                    width: 100%;
+                    height: 30px;
+                    margin-top: 10px;
+                    @include flexrow($justify:center);
+                   
+                    
+                    a{
+                        color: white;
+                        font-weight: 600;
+                        
+                    }
+                }
                 input[type=submit]{
                     background-color: blue;
                     height: 35px;
