@@ -118,7 +118,7 @@ header .container .hwrapper .left {
   max-width: 550px;
   width: 100%;
 }
-header .container .hwrapper .left ul li {
+header .container .hwrapper .left ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,7 +136,7 @@ header .container .hwrapper .left ul li {
 header .container .right {
   width: 250px;
 }
-header .container .right ul li {
+header .container .right ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

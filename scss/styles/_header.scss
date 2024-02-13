@@ -30,9 +30,9 @@ header{
                 max-width: 550px;
                 width: 100%;
                 ul{
-                    li{
+                
                      @include flexrow;
-                    } 
+                     
                  }
             }
 
@@ -42,9 +42,9 @@ header{
         .right{
             width: 250px;
             ul{
-               li{
+               
                 @include flexrow;
-               } 
+               
             }
             
         }
