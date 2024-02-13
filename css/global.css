@@ -61,7 +61,7 @@ a {
           box-sizing: border-box;
 }
 
-body .regist .container, header .container {
+body .contact .container, body .regist .container, header .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -246,4 +246,80 @@ body .regist .container form input[type=submit] {
 }
 body .footloc {
   min-height: calc(100vh - 140px);
+}
+
+body {
+  min-height: calc(100vh - 70px);
+}
+body .contact {
+  margin-top: 70px;
+  width: 100%;
+  padding: 40px;
+}
+body .contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
+  -webkit-box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
+  -moz-box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
+  background-color: aquamarine;
+}
+body .contact .container .wrapper {
+  width: 200px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+}
+body .contact .container .wrapper .icon {
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .contact .container .wrapper .icon .fa-envelope, body .contact .container .wrapper .icon .fa-phone, body .contact .container .wrapper .icon .fa-location-dot {
+  size: 50px;
+  color: white;
+}
+body .contact .container .wrapper h2, body .contact .container .wrapper h3, body .contact .container .wrapper a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+body .contact .contactfootloc {
+  min-height: calc(100vh - 220px);
 }/*# sourceMappingURL=global.css.map */

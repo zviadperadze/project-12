@@ -1,6 +1,52 @@
-.contact{
-    margin-top: 70px;
-    .container{
-        @extend %mycontainer;
+body{
+    min-height: calc(100vh - 70px);
+    .contact{
+        margin-top: 70px;
+        width: 100%;
+        padding: 40px;
+
+       
+        .container{
+            @extend %mycontainer;
+            @include flexrow;
+            @include shadow1;
+            background-color: aquamarine;
+
+            .wrapper{
+                width: 200px;
+                height: 150px;
+                @include flexcl;
+                align-items: center;
+                padding-left: 20px;
+
+                .icon{
+                    width: 60px;
+                    height: 60px;
+                    background-color: $color1;
+                    border-radius: 50%;
+                    @include flexrow($justify:center);
+
+                    .fa-envelope, .fa-phone, .fa-location-dot {
+                        size: 50px;
+                        color: white;
+                    }
+                    
+                    
+                }
+                h2, h3,a {
+                    font-family: $fontrob;
+                    font-weight: 600;
+                    
+                }
+            }
+
+
+
+           
+        }
+        .contactfootloc{
+            // min-height: 425px;
+            min-height: calc(100vh - 220px);
+        }
     }
 }

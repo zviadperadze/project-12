@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>კონტაქტი</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css">
     <script src="https://kit.fontawesome.com/110784ff4a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/global.css">
@@ -16,11 +19,11 @@
                 <nav class="left">
                     <ul>
                         <li>
-                            <a href="">მთავარი</a>
+                            <a href="../index.html">მთავარი</a>
                             <a href="">დახმარება</a>
                             <a href="">ბლოგი</a>
                             <a href="">წესები</a>
-                            <a href="pages/contact.html">კონტაქტი</a>
+                            <a href="#">კონტაქტი</a>
                         </li>
                     </ul>
                 </nav>
@@ -28,8 +31,8 @@
             <nav class="right">
                 <ul>
                     <li>
-                        <a href="/pages/regist.html" target="_blank">რეგისტრაცია</a>
-                        <a href="pages/auth.html">შესვლა</a>
+                        <a href="regist.html" target="_blank">რეგისტრაცია</a>
+                        <a href="auth.html">შესვლა</a>
                     </li>
                 </ul>
             </nav>
@@ -37,11 +40,38 @@
     </header>
 
     <section class="contact">
-        <div class="container">
-       
-        <iframe width="500" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=500&amp;height=403&amp;hl=en&amp;q=40%20akaki%20beliashvili%20st%20building%20tbilisi+(location)&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <div class="container contactfootloc">
+            <div class="wrapper">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope fa-xl"></i>
+                </div>
+                <h2>Email</h2>
+                <a href="mailto:example@yahoo.com">example@yahoo.com</a>
+                <a href="mailto:exampleemail2@yahoo.com">exampleemail2@yahoo.com</a>
+            </div>
+            <div class="wrapper">
+                <div class="icon">
+                    <i class="fa-solid fa-phone fa-xl"></i>
+                </div>
+                <h2>Phone</h2>
+                <a href="tel:+0 320 422 4254">+0 320 422 4254</a>
+                <a href="tel:+0 342 552 523">+0 342 552 523</a>
+            </div>
+            <div class="wrapper">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot fa-xl"></i>
+                </div>
+                <h2>Location</h2>
+                <h3>40 Akaki Beliashvili St</h3>
+                <h3>Tbilisi</h3>
+                
+            </div>
+            <div class="maps">
+                <iframe width="500" height="403" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=500&amp;height=403&amp;hl=en&amp;q=40%20akaki%20beliashvili%20st%20building%20tbilisi+(location)&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>    
         </div>
 
     </section>
+    <footer></footer>
 </body>
 </html>
