@@ -61,6 +61,18 @@ a {
           box-sizing: border-box;
 }
 
+:root {
+  --aquamarine:aquamarine;
+  --white:white;
+  --lightblue:rgb(117, 135, 214);
+  --black:black;
+}
+
+:root {
+  --roboto:"Roboto", sans-serif;
+  --ninomtavruli: "BPG Nino Mtavruli";
+}
+
 body .contact .container, body .regist .container, header .container {
   max-width: 1170px;
   width: 100%;
@@ -92,9 +104,9 @@ header .container {
           justify-content: space-between;
 }
 header .container a {
-  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: var(--ninomtavruli);
   font-size: 18px;
-  color: white;
+  color: var(--white);
   font-weight: 700;
 }
 header .container .hwrapper {
@@ -184,7 +196,7 @@ body .regist .container form {
   margin: 0 auto;
   border: 1px;
   border-radius: 10px;
-  background-color: rgb(117, 135, 214);
+  background-color: var(--lightblue);
   box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
   -webkit-box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
   -moz-box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
@@ -210,9 +222,9 @@ body .regist .container form .inputwrapper input, body .regist .container form .
 body .regist .container form .inputwrapper input, body .regist .container form .inputwrapper label, body .regist .container form .inputwrapper select {
   height: 30px;
   border: none;
-  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-family: var(--ninomtavruli);
   font-weight: 600;
-  color: black;
+  color: var(--black);
 }
 body .regist .container form .inputwrapper input::-webkit-input-placeholder, body .regist .container form .inputwrapper label::-webkit-input-placeholder, body .regist .container form .inputwrapper select::-webkit-input-placeholder {
   opacity: 0.5;
@@ -230,7 +242,7 @@ body .regist .container form .inputwrapper input::placeholder, body .regist .con
   opacity: 0.5;
 }
 body .regist .container form .inputwrapper input:focus, body .regist .container form .inputwrapper label:focus, body .regist .container form .inputwrapper select:focus {
-  background-color: aqua;
+  background-color: var(--aquamarine);
 }
 body .regist .container form .radio {
   width: 100%;
@@ -239,9 +251,9 @@ body .regist .container form .radio {
 }
 body .regist .container form .radio input, body .regist .container form .radio label, body .regist .container form .radio select {
   border: none;
-  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-family: var(--ninomtavruli);
   font-weight: 600;
-  color: black;
+  color: var(--black);
 }
 body .regist .container form .pass {
   width: 100%;
@@ -262,7 +274,7 @@ body .regist .container form .pass {
           justify-content: center;
 }
 body .regist .container form .pass a {
-  color: white;
+  color: var(--white);
   font-weight: 600;
 }
 body .regist .container form .restore {
@@ -284,7 +296,7 @@ body .regist .container form .restore {
           justify-content: center;
 }
 body .regist .container form .restore a {
-  color: white;
+  color: var(--white);
   font-weight: 600;
 }
 body .regist .container form input[type=submit] {
@@ -293,10 +305,10 @@ body .regist .container form input[type=submit] {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-family: var(--ninomtavruli);
   font-size: medium;
   font-weight: 600;
-  color: white;
+  color: var(--white);
 }
 body .footloc {
   min-height: calc(100vh - 140px);
@@ -329,7 +341,7 @@ body .contact .container {
   box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
   -webkit-box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
   -moz-box-shadow: 3px 4px 58px 35px rgba(28, 45, 133, 0.65);
-  background-color: aquamarine;
+  background-color: var(--aquamarine);
   height: 426px;
 }
 body .contact .container .maps {
@@ -374,7 +386,7 @@ body .contact .container .wrapper .icon {
 }
 body .contact .container .wrapper .icon .fa-envelope, body .contact .container .wrapper .icon .fa-phone, body .contact .container .wrapper .icon .fa-location-dot {
   size: 50px;
-  color: white;
+  color: var(--white);
 }
 body .contact .container .wrapper h2, body .contact .container .wrapper h3, body .contact .container .wrapper a {
   font-family: "Roboto", sans-serif;

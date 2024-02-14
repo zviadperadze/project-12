@@ -16,7 +16,7 @@ body{
                 margin: 0 auto;
                 border: 1px ;
                 border-radius: 10px;
-                background-color: rgb(117, 135, 214);
+                background-color: var(--lightblue);
                 @include shadow1;
                 
 
@@ -34,16 +34,16 @@ body{
                     input, label,select {
                         height: 30px;
                         border: none;
-                        font-family:"BPG Nino Mtavruli", sans-serif;
+                        font-family:var(--ninomtavruli);
                         font-weight: 600;
-                        color: black;
+                        color: var(--black);
                     
                     &::placeholder{
                         opacity: 0.5;
                     }
 
                         &:focus {
-                            background-color: aqua;
+                            background-color: var(--aquamarine);
 
                         }
                         
@@ -58,9 +58,9 @@ body{
                     input, label,select{
                         
                         border: none;
-                        font-family:"BPG Nino Mtavruli", sans-serif;
+                        font-family:var(--ninomtavruli);
                         font-weight: 600;
-                        color: black;
+                        color: var(--black);
                     }
                     
 
@@ -73,7 +73,7 @@ body{
                    
                     
                     a{
-                        color: white;
+                        color: var(--white);
                         font-weight: 600;
                         
                     }
@@ -87,21 +87,21 @@ body{
                    
                     
                     a{
-                        color: white;
+                        color: var(--white);
                         font-weight: 600;
                         
                     }
                 }
                 input[type=submit]{
-                    background-color: blue;
+                    background-color: $blue;
                     height: 35px;
                     cursor: pointer;
                     border: none;
                     border-radius: 5px;
-                    font-family:"BPG Nino Mtavruli", sans-serif;
+                    font-family: var(--ninomtavruli);
                     font-size: medium;
                     font-weight: 600;
-                    color: white;
+                    color:var(--white);
 
                 }
             }

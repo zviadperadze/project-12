@@ -12,7 +12,7 @@ body{
             @extend %mycontainer;
             @include flexrow;
             @include shadow1;
-            background-color: aquamarine;
+            background-color: var(--aquamarine);
             height: 426px;
             
             
@@ -31,13 +31,13 @@ body{
                 .icon{
                     width: 60px;
                     height: 60px;
-                    background-color: $color1;
+                    background-color: $blue;
                     border-radius: 50%;
                     @include flexrow($justify:center);
 
                     .fa-envelope, .fa-phone, .fa-location-dot {
                         size: 50px;
-                        color: white;
+                        color: var(--white);
                     }
                     
                     
