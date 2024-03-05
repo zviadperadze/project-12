@@ -73,7 +73,7 @@ a {
   --ninomtavruli: "BPG Nino Mtavruli";
 }
 
-body .contact .container, body .regist .container, header .container {
+body .ind-1 .container, body .contact .container, body .regist .container, header .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
@@ -391,4 +391,36 @@ body .contact .container .wrapper .icon .fa-envelope, body .contact .container .
 body .contact .container .wrapper h2, body .contact .container .wrapper h3, body .contact .container .wrapper a {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+}
+
+body .ind-1 {
+  margin-top: 70px;
+  padding: 50px;
+}
+body .ind-1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+body .ind-1 .container img {
+  width: 50px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+body .ind-1 .container :hover {
+  cursor: pointer;
+  width: 300px;
 }/*# sourceMappingURL=global.css.map */
